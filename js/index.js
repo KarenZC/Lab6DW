@@ -51,7 +51,10 @@ function addItem(e){
 var checkItem =$('.Lista').on('click', '.checar',function(e){
     e.preventDefault();
     
-    $("p").toggleClass('checked');
+    console.log($(this).siblings());
+    
+    
+    $(this).siblings('p').toggleClass('checked');
     
 });
     
