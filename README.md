@@ -1,2 +1,1 @@
-# Lab6DW
-Shopping List
+## Lab 6
